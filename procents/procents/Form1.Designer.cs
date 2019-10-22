@@ -63,9 +63,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(9, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 13);
+            this.label1.Size = new System.Drawing.Size(116, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Введите суму";
+            this.label1.Text = "Enter amount of money";
             // 
             // label2
             // 
@@ -73,15 +73,15 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(102, 27);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Можно совершить покупку на суму";
+            this.label2.Text = "Sum to spend before taxes";
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(9, 70);
+            this.label3.Location = new System.Drawing.Point(9, 86);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(103, 34);
+            this.label3.Size = new System.Drawing.Size(103, 18);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Введите процент налога";
+            this.label3.Text = "Enter PST";
             // 
             // button1
             // 
@@ -89,7 +89,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(99, 37);
             this.button1.TabIndex = 6;
-            this.button1.Text = "Рассчитать";
+            this.button1.Text = "Calculate";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -97,7 +97,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(128, 325);
+            this.ClientSize = new System.Drawing.Size(140, 325);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
